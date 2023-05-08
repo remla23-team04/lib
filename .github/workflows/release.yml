@@ -42,7 +42,6 @@ jobs:
         run: |
           VERSION="${{ github.event.release.tag_name }}"
           VERSION="${VERSION:1}"
-          npm version --no-git-tag-version "$VERSION"
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
           git commit -am "Update package.json version to $VERSION"
