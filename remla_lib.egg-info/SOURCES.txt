@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+remla_lib/VersionUtil.py
+remla_lib/__init__.py
+remla_lib.egg-info/PKG-INFO
+remla_lib.egg-info/SOURCES.txt
+remla_lib.egg-info/dependency_links.txt
+remla_lib.egg-info/top_level.txt
